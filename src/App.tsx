@@ -1,12 +1,13 @@
 import Hero from "./Pages/Hero";
 import "./App.css";
 import AnimatedCursor from "react-animated-cursor";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <section className="bg-main min-h-screen w-screen overflow-clip  relative">
       <div className="absolute h-full w-screen" id="bg"></div>
-      <div className="relative px-5">
+      <div className="relative px-0 md:px-5">
         <AnimatedCursor
           innerSize={20}
           outerSize={10}
@@ -16,6 +17,7 @@ function App() {
           outerScale={10}
           showSystemCursor={true}
         />
+        <Navbar />
         <Hero />
       </div>
     </section>
