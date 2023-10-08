@@ -7,20 +7,21 @@ const Hero = () => {
     position: { left: number; top: number };
   }[] = [
     { src: "image1.jpg", position: { left: 100, top: 100 } },
-    { src: "image2.jpg", position: { left: 400, top: 200 } },
-    { src: "image2.jpg", position: { left: 300, top: 200 } },
-    { src: "image2.jpg", position: { left: 800, top: 200 } },
-    { src: "image2.jpg", position: { left: 400, top: 600 } },
-    { src: "image2.jpg", position: { left: 400, top: 900 } },
+    { src: "image2.jpg", position: { left: 500, top: 200 } },
+    { src: "image3.jpg", position: { left: 300, top: 200 } },
+    { src: "image4.jpg", position: { left: 800, top: 200 } },
+    { src: "image5.jpg", position: { left: 400, top: 600 } },
+    { src: "image6.jpg", position: { left: 400, top: 900 } },
+    { src: "image7.jpg", position: { left: 800, top: 200 } },
 
     // Add more image objects with src and position
   ];
-  const text: string = "YOSHILYN FUJITANI";
+  const text: string = "YOSHILYNFUJITANI ";
   const [hoveredLetter, setHoveredLetter] = useState<number | null>(null);
 
   const handleMouseEnter = (index: number) => {
     if (index % 2 === 0) {
-      setHoveredLetter(index / 2);
+      setHoveredLetter(index / 2 - 1);
     }
   };
 
@@ -44,13 +45,12 @@ const Hero = () => {
             {letter}
           </span>
         ))}
-        <span className="text-transparent">I</span>
       </Marquee>
       <div className="absolute">
         {evenLetterImages.map((image, index) => (
           <div
             key={index}
-            className={`absolute ${
+            className={`image-container absolute ${
               hoveredLetter === index ? "visible" : "hidden"
             }`}
             style={{
