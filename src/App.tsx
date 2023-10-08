@@ -3,6 +3,7 @@ import "./App.css";
 import AnimatedCursor from "react-animated-cursor";
 import Navbar from "./Components/Navbar";
 import BottomNav from "./Components/BottomNav";
+import Works from "./Pages/Works";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Navbar />
         <Hero />
         <BottomNav />
+        <Works />
       </div>
     </section>
   );
