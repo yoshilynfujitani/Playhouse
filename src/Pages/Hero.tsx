@@ -33,7 +33,7 @@ const Hero = () => {
       <Marquee
         className="overflow-hidden text-[55px] tracking-tighter text-center text-textmain leading-none md:text-[240px]"
         pauseOnHover={false}
-        delay={0.5}
+        delay={0.1}
       >
         {text.split("").map((letter, index) => (
           <span
