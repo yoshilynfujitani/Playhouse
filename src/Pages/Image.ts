@@ -6,17 +6,17 @@ import IMG5 from "/IMG5.webp";
 import IMG6 from "/IMG6.webp";
 import IMG7 from "/IMG7.webp";
 
-interface imgObj {
-  src: string;
-  position: {
-    left: number;
-    top: number;
-  };
-  size: {
-    width: number;
-    height: number;
-  };
-}
+// interface imgObj {
+//   src: string;
+//   position: {
+//     left: number;
+//     top: number;
+//   };
+//   size: {
+//     width: number;
+//     height: number;
+//   };
+// }
 const imgdata = [
   {
     src: IMG1,

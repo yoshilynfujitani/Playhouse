@@ -1,4 +1,3 @@
-import React from "react";
 import Comsoc from "/ComsocCredit.png";
 import BlogStack from "/BlogStack.png";
 import WorksCard from "../Components/WorksCard";
@@ -18,6 +17,7 @@ const Works = () => {
         <WorksCard Title="Test" Year={1000} Url="test.com" Image={Comsoc} />
         <WorksCard Title="Test" Year={1000} Url="test.com" Image={BlogStack} />
       </div>
+      <div className="">More Works At</div>
     </div>
   );
 };

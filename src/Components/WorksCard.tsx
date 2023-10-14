@@ -1,7 +1,7 @@
 const WorksCard = ({
   Title,
   Year,
-  Url,
+
   Image,
 }: {
   Title: string;
