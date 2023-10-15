@@ -6,12 +6,12 @@ const WorksCard = ({
 }: {
   Title: string;
   Year: number;
-  Url: string;
+
   Image: string;
 }) => {
   return (
     <div className="my-24 rounded-lg">
-      <div className="transition-all hover:scale-110 grayscale hover:grayscale-0">
+      <div className="transition-all hover:scale-105 grayscale hover:grayscale-0">
         <img
           src={Image}
           alt=""

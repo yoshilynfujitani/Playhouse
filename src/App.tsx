@@ -4,6 +4,7 @@ import AnimatedCursor from "react-animated-cursor";
 import Navbar from "./Components/Navbar";
 import BottomNav from "./Components/BottomNav";
 import Works from "./Pages/Works";
+import Skills from "./Pages/Skills";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Hero />
         <BottomNav />
         <Works />
+        <Skills />
       </div>
     </section>
   );

@@ -31,8 +31,8 @@ const Hero = () => {
   return (
     <div>
       <Marquee
-        className="overflow-hidden text-[55px] tracking-tighter text-center text-textmain leading-none md:text-[240px]"
-        pauseOnHover={false}
+        className="overflow-hidden text-[55px] tracking-tighter text-center text-textmain leading-none md:text-[240px] cursor-default"
+        pauseOnHover={true}
         delay={0.1}
       >
         {text.split("").map((letter, index) => (
