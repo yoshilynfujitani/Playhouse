@@ -27,6 +27,7 @@ const HorizontalScrollCarousel = () => {
           {workInfo.map((item) => {
             return (
               <WorksCard
+                key={item.Title}
                 Title={item.Title}
                 Year={item.Year}
                 Image={item.Image}

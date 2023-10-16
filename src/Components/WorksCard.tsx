@@ -10,7 +10,7 @@ const WorksCard = ({
   Image: string;
 }) => {
   return (
-    <div className="my-24 rounded-lg">
+    <div className="w-60 md:w-full my-10 md:my-24 rounded-lg">
       <div className="transition-all hover:scale-105 grayscale hover:grayscale-0">
         <img
           src={Image}
