@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import BottomNav from "./Components/BottomNav";
 import Works from "./Pages/Works";
 import Skills from "./Pages/Skills";
+import BottomHero from "./Pages/BottomHero";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <BottomNav />
         <Works />
         <Skills />
+        <BottomHero />
       </div>
     </section>
   );
