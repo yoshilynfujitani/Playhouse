@@ -37,7 +37,7 @@ const BottomHero = () => {
       </div>
 
       {/* Last */}
-      <div className=" text-textmain text-6xl my-20 md:text-[180px] leading-none ">
+      <div className=" text-textmain text-6xl py-20 md:text-[180px] leading-none ">
         <div className="flex flex-col">
           <p className="text-sm text-gray-400 flex justify-between md:text-lg">
             WEB DEVELOPER <div className="">CV</div>

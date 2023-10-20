@@ -6,13 +6,13 @@ const Hero = () => {
     src: string;
     position: { left: number; top: number };
   }[] = [
-    { src: "image1.jpg", position: { left: 100, top: 100 } },
-    { src: "image2.jpg", position: { left: 500, top: 200 } },
-    { src: "image3.jpg", position: { left: 300, top: 200 } },
-    { src: "image4.jpg", position: { left: 800, top: 200 } },
-    { src: "image5.jpg", position: { left: 400, top: 600 } },
-    { src: "image6.jpg", position: { left: 400, top: 900 } },
-    { src: "image7.jpg", position: { left: 800, top: 200 } },
+    { src: "", position: { left: 100, top: 100 } },
+    { src: "", position: { left: 500, top: 200 } },
+    { src: "", position: { left: 300, top: 200 } },
+    { src: "", position: { left: 800, top: 200 } },
+    { src: "", position: { left: 400, top: 600 } },
+    { src: "", position: { left: 400, top: 900 } },
+    { src: "", position: { left: 800, top: 200 } },
 
     // Add more image objects with src and position
   ];
@@ -58,7 +58,7 @@ const Hero = () => {
               top: `${image.position.top}px`,
             }}
           >
-            <div className="w-40 h-40 bg-white">{image.src}</div>
+            <div className="w-40 h-40 bg-white rounded-full">{image.src}</div>
           </div>
         ))}
       </div>

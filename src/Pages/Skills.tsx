@@ -1,6 +1,9 @@
 const Skills = () => {
   return (
-    <div className="grid  grid-cols-1 md:grid-cols-2 text-5xl md:text-8xl">
+    <div
+      className="grid  grid-cols-1 md:grid-cols-2 text-5xl md:text-8xl"
+      id="workskillsect"
+    >
       <div className="flex flex-col">
         <h1 className="text-textmain ">
           <span className="italic font-serif font-light">(soft)</span>SKILLS

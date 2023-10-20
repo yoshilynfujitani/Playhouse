@@ -6,7 +6,7 @@ import WorksCard from "../Components/WorksCard";
 
 const Example = () => {
   return (
-    <div className="bg-neutral-800">
+    <div className="bg-neutral-800" id="work">
       <HorizontalScrollCarousel />
     </div>
   );

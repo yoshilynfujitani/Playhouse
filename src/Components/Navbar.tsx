@@ -2,19 +2,19 @@ import ButtonLinks from "./ButtonLinks";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between px-2 my-1 md:mt-5">
+    <div className="flex items-center justify-between px-10 my-1 md:pt-5">
       <ButtonLinks
-        SocialName="GitHub"
+        SocialName="GITHUB"
         url="https://github.com/yoshilynfujitani"
       />
-      <div className="">
+      <div className="flex gap-20">
         <ButtonLinks
-          SocialName="GitHub"
-          url="https://github.com/yoshilynfujitani"
+          SocialName="LINKEDIN"
+          url="https://www.linkedin.com/in/yoshilyn-fujitani-b3ab72232/"
         />
         <ButtonLinks
-          SocialName="GitHub"
-          url="https://github.com/yoshilynfujitani"
+          SocialName="FACEBOOK"
+          url="https://www.facebook.com/Yowsheee/"
         />
       </div>
     </div>
